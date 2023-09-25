@@ -1,0 +1,144 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>TP HTTP</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="./SIG-codelab-HTTP"
+                  title="TP HTTP"
+                  environment="web"
+                  feedback-link="Un lien vers lequel les utilisateurs peuvent signaler un bug">
+    
+      <google-codelab-step label="Création d&#39;un compte GitHub" duration="5">
+        <p>GitHub est un service web d&#39;hébergement : il permet de stocker des fichiers sur le Web.</p>
+<p>Deplus GitHub propose également un service de gestion de développement de logiciels : </p>
+<ul>
+<li>Il permet le suivi des bugs</li>
+<li>La création d&#39;une documentation</li>
+<li>Le suivi des demandes de fonctionnalités</li>
+</ul>
+<p>Allez sur le site <a href="https://github.com/signup" target="_blank">https://github.com/signup</a> et suivez les instructions pour créer un compte.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Création d&#39;un nouveau repository" duration="10">
+        <p>Sur GitHub un projet se nomme un <strong>repository (en français un dépôt)</strong>. </p>
+<p>Un repository peut contenir des dossiers et fichiers, des images, des vidéos etc...</p>
+<p>Allez sur <a href="https://github.com/" target="_blank">https://github.com/</a> </p>
+<p>En haut à droite d&#39;une page, utilisez le menu déroulant +  et sélectionnez Nouveau dépôt.</p>
+<p class="image-container"><img style="width: 360.00px" src="img\\a1fae0c0c7ed8fe5.png"></p>
+<p>Tapez un nom pour votre dépôt et une description facultative.</p>
+<p class="image-container"><img style="width: 718.11px" src="img\\854378b8e1fcac1.png"></p>
+<p>Laisser les autres paramètres par défaut puis en bas à droite cliquer sur &#34;Créer le dépôt&#34;</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Upload d&#39;une page HTML sur GitHub" duration="15">
+        <p>Dans le <a href="https://p-bruno.github.io/SIG-codelab-HTML/#0" target="_blank">TP précédent</a> nous avons créé un fichier intitulé mapage.html. Retrouver ce fichier ou alors reprenez le <a href="https://p-bruno.github.io/SIG-codelab-HTML/#0" target="_blank">TP précédent sur HTML</a> pour le re-créer.</p>
+<p class="image-container"><img style="width: 718.11px" src="img\\3b4bec648dff8745.png"></p>
+<p>Renommer le fichier mapage.html par index.html</p>
+<p>Sur GitHub, allez dans votre nouveau repository et cliquer sur &#34;uploading an existing file&#34; : </p>
+<p class="image-container"><img style="width: 718.11px" src="img\\52cfed34469e9da0.png"></p>
+<p>Puis cliquer sur &#34;Choose your files&#34; et indiquer votre fichier &#34;index.html&#34;</p>
+<p class="image-container"><img style="width: 718.11px" src="img\\7c7b890a2814bb7e.png"></p>
+<p>Terminer l&#39;opération en cliquant sur &#34;Commit changes&#34;</p>
+<p class="image-container"><img style="width: 695.00px" src="img\\700333a623403660.png"></p>
+<p>Désormais votre fichier a été uploader dans votre repository</p>
+<p class="image-container"><img style="width: 703.00px" src="img\\fc6cf39fe0e57177.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Publication d&#39;une page Web" duration="10">
+        <p>GitHub permet de créer des pages web publiques, hébergées et publiées via GitHub.</p>
+<p>Sous le nom de votre dépôt, cliquez sur  Paramètres. Si vous ne voyez pas l&#39;onglet « Paramètres », sélectionnez le menu déroulant  , puis cliquez sur Paramètres.</p>
+<p class="image-container"><img style="width: 718.11px" src="img\\63d12e78384ae3a5.png"></p>
+<p>Dans la section « Code et automatisation » de la barre latérale, cliquez sur  Pages</p>
+<p class="image-container"><img style="width: 483.00px" src="img\\a721d54b97b51220.png"></p>
+<p>Sous « Génération et déploiement », sous « Source », sélectionnez Déployer à partir d&#39;une branche.</p>
+<p class="image-container"><img style="width: 478.00px" src="img\\baaffd0a7c5c487.png"></p>
+<p>Sous « Génération et déploiement », sous « Branche », utilisez le menu déroulant Branche et sélectionnez la source main.</p>
+<p class="image-container"><img style="width: 501.00px" src="img\\b758bdc57e476ec9.png"></p>
+<p>Cliquer sur Save.</p>
+<p>Pour voir l&#39;avancement du déploiement, sous le nom de votre dépôt allez dans l&#39;onglet  Actions</p>
+<p class="image-container"><img style="width: 718.11px" src="img\\e0267653859e7809.png"></p>
+<p>Cliquer sur &#34;pages build and déployment : </p>
+<p class="image-container"><img style="width: 718.11px" src="img\\12a1607ddf7e08b8.png"></p>
+<p>Votre site est désormais accessible publiquement via l&#39;adresse indiquée dans la bulle &#34;deploy&#34;.</p>
+<p>Demander à votre voisin de rentrer l&#39;URL de votre page Web. Il devrait la voir s&#39;afficher dans son navigateur.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Requêtes HTTP" duration="30">
+        <p>HTTP est un protocole de communication entre un client et un serveur web.</p>
+<p>Pour rappel voici son principe de fonctionnment : </p>
+<p class="image-container"><img style="width: 718.11px" src="img\\cd9a1fb7cd4c2908.png"></p>
+<p>Nous allons créer une requête HTTP puis l&#39;envoyer au serveur HTTP et analyser sa réponse.</p>
+<h2 is-upgraded><strong>Création de la requête</strong></h2>
+<p>Rendez-vous sur le site <a href="https://httpie.io/cli" target="_blank">httpie </a>et cliquez sur Try online</p>
+<p>Vous aboutissez devant un prompt. Appuyez sur enter.</p>
+<p class="image-container"><img style="width: 693.00px" src="img\\4b760e7d35103415.png"></p>
+<p>Vous pouvez maintenant saisir une requête et examiner son contenu ainsi que sa réponse.</p>
+<p>Une requête (<code>http -v PUT pie.dev/put API-Key:foo hello=world</code>) est préremplie. Supprimer la en appuyant sur la touche effacer.</p>
+<p class="image-container"><img style="width: 612.00px" src="img\\7a97274d280a22ec.png"></p>
+<p>Taper la commande : </p>
+<pre>http -v GET &lt;URL de votre site Web&gt;</pre>
+<p>Vous remplacez <code><URL de votre site Web></code> par l&#39;URL de votre site que vous avez oublié dans les étapes précédentes.</p>
+<p class="image-container"><img style="width: 718.11px" src="img\\e8abaddaddc31383.png"></p>
+<h2 is-upgraded><strong>Analyse de la requête</strong></h2>
+<p class="image-container"><img style="width: 718.11px" src="img\\d9c02d20261c49e.png"></p>
+<p>On exécute la commande &#34;http&#34; afin d&#39;indiquer qu&#39;on souhaite créer une requête HTTP.</p>
+<p>L&#39;option -v pour &#34;verbose&#34;, verbeux affiche un contenu détaillé</p>
+<p>La méthode <code>HTTP GET</code> permet d<strong>&#39;accéder</strong> à un contenu, sans le modifier.</p>
+<p>Quel est le nom de l&#39;hôte qui héberge la ressource demandée ?</p>
+<p>D&#39;après vous que signifie le paramètre <code>User-Agent</code> dans cette requête HTTP ?</p>
+<h2 is-upgraded><strong>Analyse de la réponse</strong></h2>
+<p class="image-container"><img style="width: 718.11px" src="img\\1b0dd15889045af4.png"></p>
+<p>Quel est le nom du serveur qui a envoyé cette réponse ?</p>
+<p>Les requêtes/réponses HTTP sont composées de 2 parties : </p>
+<ul>
+<li>le header : contient des informations additionnelles concernant la requête/réponse</li>
+<li>le body : le corps de la requête (parfois il n&#39;y en a pas)</li>
+</ul>
+<p class="image-container"><img style="width: 718.11px" src="img\\1962c774079d611a.png"></p>
+<p>Analyser la réponse de votre requête, quel est le contenu du body ?</p>
+<p>Faire une requête HTTP de type GET vers le site <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">http://info.cern.ch/hypertext/WWW/TheProject.html</a></p>
+<p>Quel est le nom de l&#39;hôte qui héberge la ressource demandée ?</p>
+<p>A quelle date la ressource demandée a-t-elle été modifiée pour la dernière fois ?</p>
+<p>Afficher la page demander dans votre navigateur. Afficher le code source de la page (Ctrl+U). </p>
+<p>Quel est le contenu du body de votre requête précédente ? Ce contenu est-il identique au code source de la page ?</p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
